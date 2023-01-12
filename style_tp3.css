@@ -1,0 +1,70 @@
+.Titre{
+	border: 3px solid #3069C5;
+	height: 85px;
+	width: 1380px;
+	margin: 10px;
+	text-align: center;
+	background-color: #3069C5;
+	color: white;
+}
+
+.intro{
+	background-color: yellow;
+	float: left;
+	text-align: center;
+	border: 2px solid #3069C5;
+	height: 300px;
+	width: 300px;
+	margin: 80px;
+	color: white;
+}
+.suite{
+	background-color: green;
+	float: left;
+	text-align: center;
+	border: 2px solid #3069C5;
+	height: 300px;
+	width: 300px;
+	margin: 80px;
+	color: white;
+}
+.panda{
+	float: left;
+	text-align: center;
+	border: 2px solid #3069C5;
+	height: 300px;
+	width: 300px;
+	margin: 80px;
+	color: white;
+}
+.pied{
+	clear: both;
+	border: 3px solid #3069C5;
+	height: 30px;
+	width: 1380px;
+	margin: 10px;
+	text-align: center;
+	background-color: #3069C5;
+	color: white;
+	font-size: larger;
+	text-align: center;
+	
+	
+}
+.text{
+	border: 3px solid #3069C5;
+	background-color: blue;
+
+}
+.S{
+	border: 3px solid #3069C5;
+	background-color: blue;
+}
+.P{
+	border: 3px solid #3069C5;
+	background-color: blue;
+}
+.img{
+	height: 226px;
+	width: 300px;
+}

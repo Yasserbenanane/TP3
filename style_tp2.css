@@ -1,0 +1,26 @@
+div{
+	height: 90px;
+	width: 70px;
+	float: left;
+	margin: 20px;
+}
+.b1{
+	background-color: blue;
+	text-align: center;
+}
+.b2{
+	background-color: green;
+	text-align: center;
+}
+.b3{
+	background-color: pink; 
+	float: left;
+	clear: both;
+	text-align: center;
+}
+img{
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+	margin-right: 30%;
+}

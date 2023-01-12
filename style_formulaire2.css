@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+div{
+    border: 2px solid green;
+	border-radius: 26px;
+	width: 50vh;
+	margin: 0 auto;
+	padding: 5px;
+    color: darkmagenta;
+    text-align: center;
+}
+h1{
+    color: darkmagenta;
+    text-align: center;
+}
+button{
+	background-color: yellow;
+	text-align: center;
+	width: 90px;
+	padding: 10px 20px;
+	border-radius: 26px;
+	border: 2px 
+	margin-top: 10px;
+	transition: 0.2s;
+
+}
+button:hover{
+	color: darkmagenta;
+	background-color: black;
+	border: 2px solid yellow;
+}
+table{
+	margin: 0 auto;
+}

@@ -1,0 +1,67 @@
+.box_principal{
+	border: 3px solid purple;
+	box-shadow: 12px 12px 2px 1px purple;
+	width: 40%;
+	height: 30%;
+	margin-left: 30%
+}
+.photo{
+	text-align: right;
+	float: right;
+
+}
+img{
+	position: absolute;
+	width: 120px;
+	margin-left: 30%;
+	top: 3%;
+}
+.box_1{
+	border: 3px solid pink;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+
+}
+.box_2{
+	border: 3px solid pink;
+	margin: center;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+.box_3{
+	border: 3px solid pink;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+.box_4{
+	border: 3px solid pink;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+.bac,.certif,.Brevêt{
+	text-align: right;
+
+}
+h2,h3{
+	text-align: center;
+}
+.qui{
+	text-align: right;
+}
+.in{
+	text-align: right;
+}
+p{
+	padding-left: 3%
+}
+
+
