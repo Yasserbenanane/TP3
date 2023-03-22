@@ -1,0 +1,128 @@
+::before,::after,*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+header{
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr;
+    color: #EC5118;
+    background-color: rgba(0, 0, 255, 0.319);
+}
+header div{
+    margin: 10px;
+}
+img{
+    height: 20vh;
+}
+.headerCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.headerLeft{
+    width: 20px;
+}
+.headerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.titleLeft{
+    color: #EC5118;
+    border-bottom: 2px solid black;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+.titleRight{
+    color: #EC5118;
+    border-bottom: 2px solid black;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+.topSection{
+    border-bottom: 2px solid black;;
+    height: 30vh;
+    background-color: skyblue   ;
+}
+#centerTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: skyblue;
+
+}
+.boxLeft{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-left: 1px;
+    
+}
+.boxRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1px;
+    color: #EC5118;
+
+}
+.condition{
+    text-align: right;
+    margin-right: 10px;
+}
+.boxLeft, .boxRight{
+    margin-top: 20px;
+    gap: 5px;
+    color: #EC5118;
+}
+table{
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid;
+}
+thead{
+    background-color: #EC5118;
+}
+.description{
+    width: 20vw;
+}
+.y{
+    width: 17vw;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px;
+    align-items: flex-end;
+    margin-top: 2vh;
+}
+.leftSide{
+    margin-top: 10px;
+    color: #EC5118;
+}
+input{
+    margin-right: 10px;
+}
+.allButtom{
+    margin-right: 75vw;
+}
+.total, .remise, .taxe, .solde{
+    color: #EC5118;
+}
+#total{
+    background-color: #ec511851;
+}
+#a{
+    background-color: #EC5118;
+}
+#container{
+    background-color: skyblue;
+}
+tr:nth-child(even) input {background: #ec5118bf}

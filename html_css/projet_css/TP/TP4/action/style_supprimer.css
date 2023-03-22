@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+	text-align: center;
+}
+p{
+	color: red;
+	font-family: verdana;
+	font-size: 2em;
+}
+div{
+	border: 2px solid red;
+	border-radius: 26px;
+	width: 55vh;
+	height: 34vh;
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-left: 35%;
+}
+input{
+	margin-top: 5%;
+	border: 2px solid red;
+	background-color: black;
+	width: 70%;
+	height: 20%;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+}
+button{
+	background-color: red;
+	text-align: center;
+	width: 200px;
+	padding: 17px 22px;
+	border-radius: 26px;
+	border: 2px 
+	margin-top: 3px;
+	transition: 0.3s;
+	margin-top: 5%;
+}
+button:hover{
+	color: red;
+	background-color: black;
+	border: 2px solid red;
+}

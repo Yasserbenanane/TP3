@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="headerLeft">
+                <img src="img/Tardis.png" alt="logo entreprise">
+            </div>
+            <div class="headerCenter">
+                <input type="text" placeholder="Nom de la compagnie">
+                <input type="text" placeholder="Adresse postale">
+                <input type="text" placeholder="Détails du contact">
+            </div>
+            <div class="headerRight">
+                <h1>Facture</h1>
+                <input type="text" placeholder="Date" id="date">
+                <input type="text" placeholder="N° de la facture">
+            </div>
+        </header>
+
+        <div class="topSection">
+            <p class="condition">Condition de paiement: <input type="text" placeholder="Du">dans <input type="text" placeholder="X jours"></p>
+            <div id="centerTop">
+                <div class="boxLeft">
+                    <p class="titleLeft">destinataire</p>
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Nom de la société">
+                    <input type="text" placeholder="Adresse postale">
+                    <input type="text" placeholder="Téléphone">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="boxRight">
+                    <p class="titleRight">Envoyez à</p>
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Nom de la société">
+                    <input type="text" placeholder="Adresse postale">
+                    <input type="text" placeholder="Téléphone">
+                    <input type="text" placeholder="Email">
+                </div>
+            </div>
+        </div>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="description">Description</th>
+                        <th>Quantité</th>
+                        <th>Prix unitaire</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>    
+                        <td><input type="text" class="y"></td>
+                        <td><input type="text" class="a"></td>
+                        <td><input type="text" class="b"></td> 
+                        <td><input type="text" class="c"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" class="y"></td>
+                        <td><input type="text" class="a"></td>
+                        <td><input type="text" class="b"></td>
+                        <td><input type="text" class="c"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" class="y"></td>
+                        <td><input type="text" class="a"></td>
+                        <td><input type="text" class="b"></td>
+                        <td><input type="text" class="c"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="text" class="y"></td>
+                        <td><input type="text" class="a"></td>
+                        <td><input type="text" class="b"></td>
+                        <td><input type="text" class="c"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <div class="footer">
+            <div class="leftSide">
+                <p>Remarque,note et instruction de paiement :</p>
+            </div>
+            <div class="rightSide">
+                <div class="total">
+                    <label for="">Sous-total :</label>
+                    <input type="text" class="downTotal">
+                </div>
+                <div>
+                    <label for="">Remise :</label>
+                    <input type="text" class="Solde">
+                </div>
+                <div class="remise">
+                    <label for="">Sous-total moins les remises :</label>
+                    <input type="text" class="sous-remise">
+                </div>
+                <div>
+                    <label for="">Taux d'imposotion :</label>
+                    <input type="text" class="TVA">
+                </div>
+                <div class="taxe">
+                    <label for="">Taxe totale :</label>
+                    <input type="text" class="taxeSomme">
+                </div>
+                <div>
+                    <label for="">Expedito, Manutention :</label>
+                    <input type="text" class="Expedito">
+                </div>
+                <div class="solde">
+                    <label for="">Solde du :</label>
+                    <input type="text" id="total">
+                </div>
+                
+                <div class="allButtom">
+                    <button id="calc">Calculer</button>
+                    <button id="addRow">Ajouter une ligne</button>
+                    <button id="fillAuto">Remplir automatiquement</button>
+                    <button id="cancel">Annuler</button>
+                </div>
+            </div>
+        <div>   
+    </div>
+</body>
+</html>
