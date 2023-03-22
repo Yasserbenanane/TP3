@@ -1,0 +1,215 @@
+body{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(img/ip-man-4-the-finale-q0.jpg);
+	background-size: cover;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+nav > ul > li{
+	float: left;
+}
+
+.submenu{
+	display: none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+.menu-mobile{
+	display: none;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF; 
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+.menu-html:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-js:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-base_donnee:hover{
+	border-top: 5px solid #e75874;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-php:hover{
+	border-top: 5px solid red;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+	border-top: 5px solid #BBB;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+.menu-mission:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+nav > ul > li::hover a{
+	padding: 15px 30px 20px 30px;
+}
+.menu-html .submenu{
+	background-color: rgb(230, 100, 40);
+}
+.menu-css .submenu{
+	background-color: rgb(000, 160, 240);
+}
+.menu-js .submenu{
+	background-color: rgb(251, 216, 99);
+}
+.menu-base_donnee .submenu{
+	background-color: #f162ff;
+}
+.menu-mission .submenu{
+	background-color: rgb(000, 112, 192);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-html .submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-css .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-js .submenu li:hover{
+	background-color: rgb(200, 165, 75);
+}
+.menu-base_donnee .submenu li:hover{
+	background-color: #e75874;
+}
+.menu-mobile{
+	display: none;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
+@media screen and (max-width: 680px){
+	.menu-mobile{
+		display: block;
+		color: #FFF;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0;
+	}
+	nav ul{
+		display: none;
+	}
+}
+.intro{
+	border: 4px solid purple; 
+	text-align: center;
+	border-radius: 20px;
+	padding: 60px;
+	margin-top: 9%;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-style: dashed solid;
+}
+.neonText {
+	animation: flicker 1.5s infinite alternate;
+	color: #fff;
+  }
+  
+  h1 {
+	font-size: 4.2rem;    
+  }
+  
+  @keyframes flicker {
+	  
+	0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+		text-shadow:
+		0 0 4px #fff,
+		0 0 11px #fff,
+		0 0 19px #fff,
+		0 0 40px rgb(225, 0, 255),
+		0 0 80px rgb(225, 0, 255),
+		0 0 90px rgb(225, 0, 255),
+		0 0 100px rgb(225, 0, 255),
+		0 0 150px rgb(225, 0, 255);
+	
+	}
+	
+	20%, 24%, 55% {        
+		text-shadow: none;
+	}    
+  }
+  
+  
+	
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+	margin-top: 20vh;
+  }
+  
+  body {
+	font-size: 10px;
+	font-family: "Helvetica Neue", sans-serif;
+	background-color: #010a01;
+  }  
+  
+  h1, h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+  }
