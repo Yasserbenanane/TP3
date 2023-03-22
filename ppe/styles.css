@@ -1,0 +1,250 @@
+.banniere{
+border: 3px solid black;
+border-radius: 20px;
+height: 70px;
+width: 98vw;
+margin-top: 3vh;
+margin-left: 1vw;
+text-align: center;
+/* display: inline */
+}
+.portfolio {
+  margin-top: 2.5vh;
+}
+.section_droite{
+    border: 3px solid black;
+    height: 55.5vh;
+    width: 75vw;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+}
+iframe {
+    width: 60%;
+    height: 40vh;
+	margin-top: 3.5vw;
+    margin-left: 5vw;
+    border: 3px solid black;
+    border-radius: 23px;
+}
+
+footer {
+    border: 3px solid black;
+    height: 70px;
+    width: 98vw;
+	margin-left: 1vw;
+    text-align: center;
+	border-radius: 7px;
+}
+.pied_de_page {
+  margin-top: 20px;
+}
+ul {
+    list-style: none;
+}
+.home {
+	margin-bottom: 20px;
+}
+.dropdownmenu {
+	background-color: #666;
+	width: 140px;
+}
+.dropdownmenu,
+.dropdownmenu ul {
+	/* Suppression des puces et des marges pour les listes du menu et des sous-menus */
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.dropdownmenu ul {
+	display: none;
+}
+.dropdownmenu li {
+	position: relative;
+}
+.dropdownmenu a {
+	/* On transforme les liens en bloc pour pouvoir les dimensionner */
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	padding: 3px 10px;
+	text-align: center;
+}
+.dropdownmenu li:hover ul {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 140px;
+	z-index: 100;
+}
+.dropdownmenu ul a {
+	display: block;
+}
+.dropdownmenu li {
+	background-color: #666;
+}
+.dropdownmenu li a {
+	color: #ccc;
+}
+.dropdownmenu li:hover {
+	background-color: #000;
+}
+.dropdownmenu li:hover a {
+	color: #fff;
+}
+.dropdownmenu ul li {
+	background-color: #ccc;
+}
+.dropdownmenu ul li:hover {
+	background-color: #000;
+}
+.dropdownmenu ul li a {
+	color: #666;
+}
+.dropdownmenu ul li:hover a {
+	color: #f00;
+}
+img {
+  width: 10vw;
+  height: 17vh;
+  margin-bottom: 27vh;
+  margin-left: 3vw;
+}
+
+
+
+/* Pour le menu déroulant */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-image: url(ressource/img/pexels-pixabay-434337.jpg);
+  font-family: Raleway, Helvetica, sans-serif;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a{
+  color: #000!important;
+  text-decoration: none!important;
+}
+
+/* New Stacking Context with Fixed */
+.side-nav {
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 20vh;
+}
+
+/* To hide the sub-nav */
+.wrapper {
+  background: rgba(177, 176, 176, 0.322);
+  width: 75px;
+}
+
+.three-dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.dot {
+  flex-shrink: 0;
+  margin: 10px 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.nav-bloc {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f21e;
+}
+.nav-bloc:hover {
+  background: rgba(24, 24, 24, 0.295);
+}
+.nav-bloc:hover .sub-nav {
+  transform: translateX(75px);
+}
+.nav-bloc svg {
+  width: 25px;
+  fill: #f2f2f2;
+  transition:  0.2s ease-in-out ;
+}
+.nav-bloc:hover  svg {
+  fill: #50bddf;
+}
+.sub-nav {
+  padding: 0px;
+  width: 200px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(207, 206, 206, 0.466);
+  z-index: -1;
+  color: white;
+  /* Hidden at the left side */
+  transform: translateX(-100%);
+  transition: transform 0.2s ease-in-out;
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.sub-nav h2 {
+  font-family: open sans, sans-serif;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(34, 34, 34, 0.637);
+}
+.sub-nav ul {
+  list-style-type: none;
+}
+.sub-nav li {
+  padding: 15px 20px;
+}
+.sub-nav li:hover {
+  background: rgba(160, 160, 160, 0.555);
+}
+.sub-nav li a {
+   color: #000000;
+   text-decoration: none;
+}
+
+.main-content {
+  padding-left: 75px;
+  color: #f3f3f3;
+}
+.main-content h1 {
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+}
+
+.main-content p {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 30px;
+  line-height: 1.7;
+}
+
+.sub-nav{
+  height: 25vh!important;
+}
